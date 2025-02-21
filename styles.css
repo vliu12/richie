@@ -164,3 +164,11 @@ html {
     max-width: none; /* or remove it entirely */
     overflow: visible; /*Allow content to overflow outside of it*/
 }
+
+.portfolio-image {
+    width: 140%; /* Makes the image 20% wider than its container */
+    margin-left: -55px;
+    padding-top: 130px;
+    max-width: none; /* or remove it entirely */
+    overflow: visible; /*Allow content to overflow outside of it*/
+}
