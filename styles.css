@@ -1,0 +1,49 @@
+/* styles.css */
+
+html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100vh; /* Use viewport height for full screen */
+    margin: 0;
+    background-color: #f9f9f9; /* Match the bg-gray-50 class */
+  }
+  
+  .app-container {
+    max-width: 375px;
+    margin: 0 auto;
+    border-radius: 1.5rem; /* Tailwind's rounded-3xl (0.75rem * 2) */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Match Tailwind's shadow-lg */
+    overflow: hidden;
+    background-color: #fff; /* Match the bg-white class */
+    position: relative; /* Needed for proper stacking of fixed header */
+    min-height: 100vh; /* Ensure full height for the app container */
+  }
+  
+  .fixed-header {
+      position: fixed; /* Make the header stick to the top */
+      top: 0;
+      left: 50%; /* Center the header horizontally */
+      transform: translateX(-50%); /* Adjust for centering */
+      width: 375px; /* Set a fixed width */
+      z-index: 10; /* Ensure it stays on top of other content */
+  }
+  
+  .header-content {
+      border-top-left-radius: 1.5rem; /* Rounded corners on the top left */
+      border-top-right-radius: 1.5rem; /* Rounded corners on the top right */
+  }
+  
+  .main-content {
+      padding-top: 200px; /* Add padding to prevent content from being hidden */
+  }
+  
+  .tree-image {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+  }
+  
