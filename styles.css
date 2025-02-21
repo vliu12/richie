@@ -180,3 +180,11 @@ html {
     max-width: none; /* or remove it entirely */
     overflow: visible; /*Allow content to overflow outside of it*/
 }
+
+.color-box {
+    width: 100%;      /* Set the width of the box */ 
+    height: 300px;     /* Set the height of the box */ 
+    background-color: #eee1f4; /* Set the background color (e.g., a shade of blue) */ 
+    position: absolute; /* Position the box absolutely */
+    z-index: -1; /* Ensure it stays behind other content */
+    }
