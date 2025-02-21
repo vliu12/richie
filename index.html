@@ -6,6 +6,7 @@
     <title>Carol's Tree</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="app-container">
@@ -22,11 +23,11 @@
                 <div class="flex justify-between">
                     <div class="bg-purple-700 rounded-3xl p-4 flex-1 mr-2">
                         <div>Total Earned</div>
-                        <div class="text-lg font-bold">2761</div>
+                        <div class="text-lg font-bold">$0.02</div>
                     </div>
                     <div class="bg-purple-700 rounded-3xl p-4 flex-1 ml-2">
                         <div>XP Level</div>
-                        <div class="text-lg font-bold">$0.00</div>
+                        <div class="text-lg font-bold">2761</div>
                     </div>
                 </div>
             </div>
@@ -41,13 +42,48 @@
 
             <!-- Daily Learning Overview -->
             <div class="p-6">
-                <div class="text-lg font-bold mb-2">Daily Learning Overview:</div>
-                <div class="text-gray-700">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra ut dui elementum viverra. Nam turpis purus, vehicula nec ante sed, commodo varius nisl. Mauris laoreet consectetur quam, at vestibulum mauris. Etiam ut blandit dui, sed feugiat sem. Donec tincidunt turpis sem, pellentesque facilisis tortor tempus vitae. Pellentesque commodo convallis mattis. Aenean nec enim elit. Vestibulum ante ipsum primis in.</p>
+                <div class="text-lg font-bold mb-2 purple-text">Daily Learning Overview:</div>
+                <div class="text-gray-700  daily-learning-box">
+                    <p>Today, let's reinforce what you’ve learned and take the next step in understanding how cryptocurrencies work in real-world finance.</p>
+                    <li>What is Crypto? Digital assets that use blockchain technology for secure transactions.</li>
+                    <li>How Does It Work? Decentralized networks verify transactions instead of banks.</li>
+                    <li>Why Does It Matter? Crypto can be used for investment, payments, and decentralized finance (DeFi).</li>
                 </div>
             </div>
         </main>
 
+        <!-- Courses -->
+        <div class="p-7">
+            <div class="text-lg font-bold mb-2 purple-text">Market Watch: Crypto Market Slumps Amid Sell-Off</div>
+            <div class="text-gray-700  daily-learning-box">
+                <p>The cryptocurrency market took a hit today as major coins like Bitcoin and Ethereum saw a sharp decline.</p>
+            </div>
+        </div>
+    </main>
+
+        <!-- Fixed Bottom Navigation -->
+        <nav class="fixed-bottom-nav">
+            <a href="#" class="nav-item">
+                <i class="fas fa-home"></i>
+                <span>Courses</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-search"></i>
+                <span>Calculator</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-bell"></i>
+                <span>Deals</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-wallet"></i>
+                <span>Progress</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-user"></i>
+                <span>Portfolio</span>
+            </a>
+        </nav>
     </div>
 </body>
 </html>
