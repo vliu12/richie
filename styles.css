@@ -172,3 +172,11 @@ html {
     max-width: none; /* or remove it entirely */
     overflow: visible; /*Allow content to overflow outside of it*/
 }
+
+.deals-image {
+    width: 140%; /* Makes the image 20% wider than its container */
+    margin-left: -55px;
+    margin-top: -75px;
+    max-width: none; /* or remove it entirely */
+    overflow: visible; /*Allow content to overflow outside of it*/
+}
