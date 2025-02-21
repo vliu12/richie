@@ -156,3 +156,11 @@ html {
     text-align: center;
     padding: 0.5rem;
 }
+
+.course-image {
+    width: 130%; /* Makes the image 20% wider than its container */
+    margin-left: -35px;
+    padding-top: 150px;
+    max-width: none; /* or remove it entirely */
+    overflow: visible; /*Allow content to overflow outside of it*/
+}
